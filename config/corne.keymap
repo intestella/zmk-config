@@ -20,8 +20,8 @@
 
             bindings = <
 &kp TAB     &kp Q  &kp W        &kp F           &kp P      &kp B               &kp J              &kp L      &kp U                &kp Y          &kp SEMICOLON  &kp BSPC
-&kp GRAVE   &kp A  &kp R        &kp S           &kp T      &mt LEFT_SHIFT G    &mt RIGHT_SHIFT M  &kp N      &kp E                &kp I          &kp O          &kp MINUS
-&kp ESCAPE  &kp Z  &mt LCTRL X  &mt LEFT_GUI C  &kp D      &kp V               &kp K              &kp H      &mt RIGHT_GUI COMMA  &mt RCTRL DOT  &kp FSLH       &kp UNDERSCORE
+&kp GRAVE   &kp A  &kp R        &kp S           &kp T      &mt LEFT_SHIFT G    &mt RIGHT_SHIFT M  &kp N      &kp E                &kp I          &kp O          &kp SINGLE_QUOTE
+&kp ESCAPE  &kp Z  &mt LCTRL X  &mt LEFT_GUI C  &kp D      &kp V               &kp K              &kp H      &mt RIGHT_GUI COMMA  &mt RCTRL DOT  &kp FSLH       &kp DOUBLE_QUOTES
                                 &kp BACKSPACE   &kp SPACE  &mo 2               &mo 1              &kp ENTER  &kp TAB
             >;
         };
@@ -49,10 +49,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH           &kp DLLR          &kp PRCNT    &kp CARET       &kp AMPS        &kp ASTRK     &trans           &trans    &kp BSPC
-&kp LCTRL  &trans    &trans  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans             &trans            &kp EQUAL    &kp UNDER       &kp PLUS        &trans        &trans           &kp PIPE  &kp TILDE
-                             &trans             &trans            &trans       &trans          &trans          &trans
+&kp TAB    &kp EXCL  &kp AT  &kp HASH        &kp DLLR   &kp PRCNT    &kp CARET       &kp AMPS        &kp ASTRK     &trans           &trans    &kp BSPC
+&kp LCTRL  &trans    &trans  &kp UNDERSCORE  &kp MINUS  &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp BSLH  &kp GRAVE
+&kp LSHFT  &trans    &trans  &trans          &trans     &kp EQUAL    &kp UNDER       &kp PLUS        &trans        &trans           &kp PIPE  &kp TILDE
+                             &trans          &trans     &trans       &trans          &trans          &trans
             >;
         };
     };
