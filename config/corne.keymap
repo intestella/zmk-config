@@ -19,10 +19,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB     &kp Q  &kp W        &kp F           &kp P      &kp B               &kp J              &kp L      &kp U                &kp Y          &kp SEMICOLON  &kp BSPC
-&kp GRAVE   &kp A  &kp R        &kp S           &kp T      &mt LEFT_SHIFT G    &mt RIGHT_SHIFT M  &kp N      &kp E                &kp I          &kp O          &kp SINGLE_QUOTE
-&kp ESCAPE  &kp Z  &mt LCTRL X  &mt LEFT_GUI C  &kp D      &kp V               &kp K              &kp H      &mt RIGHT_GUI COMMA  &mt RCTRL DOT  &kp FSLH       &kp DOUBLE_QUOTES
-                                &kp BACKSPACE   &kp SPACE  &mo 2               &mo 1              &kp ENTER  &kp TAB
+&kp TAB     &kp Q  &kp W  &kp F          &kp P      &kp B    &kp J  &kp L           &kp U      &kp Y       &kp SEMICOLON  &kp SQT
+&kp ESCAPE  &kp A  &kp R  &kp S          &kp T      &kp G    &kp M  &kp N           &kp E      &kp I       &kp O          &kp ENTER
+&kp LCTRL   &kp Z  &kp X  &kp C          &kp D      &kp V    &kp K  &kp H           &kp COMMA  &kp PERIOD  &kp FSLH       &kp LGUI
+                          &kp BACKSPACE  &kp SPACE  &mo 2    &mo 1  &kp LEFT_SHIFT  &kp TAB
             >;
         };
 
@@ -34,10 +34,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB               &kp N1             &kp N2            &kp N3            &kp N4                &kp N5           &kp N6            &kp N7                 &kp N8           &kp N9             &kp N0  &kp BSPC
-&kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP    &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp LESS_THAN    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans  &trans
-&kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp C_PREVIOUS    &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD    &trans           &trans            &trans                 &trans           &trans             &trans  &trans
-                                                           &trans            &trans                &kp RALT         &trans            &trans                 &trans
+&trans  &kp N1  &kp N2            &kp N3            &kp N4                &kp N5           &kp N6            &kp N7                 &kp N8                &kp N9             &kp N0             &trans
+&trans  &kp A   &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp LESS_THAN    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE       &kp RIGHT_BRACKET  &kp C_VOLUME_UP    &trans
+&trans  &trans  &kp C_PREVIOUS    &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD    &trans           &trans            &kp C_BRIGHTNESS_INC   &kp C_BRIGHTNESS_DEC  &trans             &kp C_VOLUME_DOWN  &trans
+                                  &trans            &trans                &kp RALT         &trans            &trans                 &trans
             >;
         };
 
@@ -49,10 +49,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH        &kp DLLR   &kp PRCNT    &kp CARET       &kp AMPS        &kp ASTRK     &trans           &trans    &kp BSPC
-&kp LCTRL  &trans    &trans  &kp UNDERSCORE  &kp MINUS  &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans          &trans     &kp EQUAL    &kp UNDER       &kp PLUS        &trans        &trans           &kp PIPE  &kp TILDE
-                             &trans          &trans     &trans       &trans          &trans          &trans
+&trans  &kp EXCL  &kp AT  &kp HASH        &kp DLLR   &kp PRCNT    &kp CARET       &kp AMPS        &kp ASTRK     &trans           &trans    &trans
+&trans  &trans    &trans  &kp UNDERSCORE  &kp MINUS  &kp PLUS     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp BSLH  &trans
+&trans  &trans    &trans  &trans          &trans     &kp EQUAL    &trans          &kp GRAVE       &kp TILDE     &trans           &kp PIPE  &trans
+                          &trans          &trans     &trans       &trans          &trans          &trans
             >;
         };
     };
