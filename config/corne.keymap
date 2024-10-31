@@ -13,9 +13,9 @@
 
         letters {
             bindings = <
-&kp TAB              &kp Q  &kp W  &kp F          &kp P      &kp B    &kp J  &kp L           &kp U      &kp Y       &kp SEMICOLON  &kp SQT
-&kp ESCAPE           &kp A  &kp R  &kp S          &kp T      &kp G    &kp M  &kp N           &kp E      &kp I       &kp O          &kp ENTER
-&mt LCTRL SEMICOLON  &kp Z  &kp X  &kp C          &kp D      &kp V    &kp K  &kp H           &kp COMMA  &kp PERIOD  &kp FSLH       &mt LGUI SINGLE_QUOTE
+&kp TAB              &kp Q  &kp W  &kp E          &kp R      &kp T    &kp Z  &kp U           &kp I      &kp O       &kp SEMICOLON  &kp SQT
+&kp ESCAPE           &kp A  &kp S  &kp D          &kp F      &kp G    &kp H  &kp J           &kp K      &kp L       &kp RET        &kp BACKSLASH
+&mt LCTRL SEMICOLON  &kp Y  &kp X  &kp C          &kp V      &kp B    &kp N  &kp M           &kp COMMA  &kp PERIOD  &kp FSLH       &mt LGUI SINGLE_QUOTE
                                    &kp BACKSPACE  &kp SPACE  &mo 2    &mo 1  &kp LEFT_SHIFT  &kp TAB
             >;
         };
